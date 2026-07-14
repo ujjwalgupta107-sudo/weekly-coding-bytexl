@@ -15,11 +15,11 @@ int main() {
     fast_io;
     int n;
     if(!(cin >> n)) return 0;
-    
+
     vector<int> st(n), en(n);
     for(int i=0; i<n; i++) cin >> st[i];
     for(int i=0; i<n; i++) cin >> en[i];
-    
+
     vector<pair<int,int>> v(n);
     for(int i=0; i<n; i++) {
         v[i] = {st[i], en[i]};
